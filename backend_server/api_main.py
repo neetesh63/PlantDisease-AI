@@ -133,8 +133,8 @@ app = FastAPI(
 # Allow calls from Next.js dev server and any production domain
 app.add_middleware(
     CORSMiddleware,
-    allow_origins     = ["http://localhost:3000", "http://127.0.0.1:3000", "*"],
-    allow_credentials = True,
+    allow_origins     = ["*"],
+    allow_credentials = False,
     allow_methods     = ["GET", "POST", "OPTIONS"],
     allow_headers     = ["*"],
 )
