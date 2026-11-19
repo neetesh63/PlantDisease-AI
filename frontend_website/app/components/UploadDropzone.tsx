@@ -47,7 +47,7 @@ export function UploadDropzone({ onResult, onLoading }: Props) {
       form.append("file", file);
 
       try {
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://plant-disease-api.onrender.com/predict";
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://plantdisease-ai-dyq4.onrender.com/predict";
         const res = await fetch(apiUrl, {
           method: "POST",
           body: form,
