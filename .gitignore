@@ -1,0 +1,41 @@
+# Python Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Large Archives & Datasets Zip
+*.zip
+plant-village.zip
+
+# Node & Next.js
+frontend_website/node_modules/
+frontend_website/.next/
+frontend_website/out/
+frontend_website/.vercel
+node_modules/
+.next/
+
+# IDE & OS Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env*.local
